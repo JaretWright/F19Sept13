@@ -17,6 +17,8 @@ public class AddingTwoNumbers {
         System.out.printf("Enter the second number: ");
         number2 = keyboard.nextInt();
 
-
+        //display the sum of the 2 variables
+        System.out.printf("The sum of %d + %d = %d%n",number1, number2,
+                                            number1+number2);
     }
 }
