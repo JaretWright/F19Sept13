@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class AddingTwoNumbers {
+public class AddingTwoNumbers
+{
     public static void main(String[] args)
     {
         //this defines 2 variables called number1 and number2 that
@@ -20,5 +21,7 @@ public class AddingTwoNumbers {
         //display the sum of the 2 variables
         System.out.printf("The sum of %d + %d = %d%n",number1, number2,
                                             number1+number2);
+
+        //small edit for demo
     }
 }
